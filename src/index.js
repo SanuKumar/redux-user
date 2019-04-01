@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom'
+// import { Provider } from 'react-redux';
 import Landing from './dashboard/landing';
+import 'antd/dist/antd.css';
 
 ReactDOM.render(
-    <Provider>
+    <BrowserRouter>
         <Landing />
-    </Provider>,
+    </BrowserRouter>,
 document.getElementById('root'));
 
 

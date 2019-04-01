@@ -1,5 +1,9 @@
-import Landing from './landing',
+import Landing from './landing';
+import Heading from './heading';
+import { UserDashboard } from '../user/userDashboard';
 
 export {
-    Landing
+    Landing,
+    Heading,
+    UserDashboard
 }
